@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    src: url();
+}
+
+@font-face {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    src: url();
+}
+    body {
+        overflow-x: hidden;
+        overflow-wrap: break-word;
+        display: inline-block;
+    
+    }
+
+    main{
+        padding-top: 60px;
+    }
+   
+   header {
+       border-bottom: 2px solid;
+       text-align: center;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .first-block {
+    overflow-x: hidden;
+        box-sizing: border-box;
+        display: inline-block;
+       justify-content: center;
+       border: 2px solid transparent;
+       padding: 20px 40px;
+       text-align: center;
+       height: 900px;
+       background-image: repeating-linear-gradient(45deg, #6f7ec7 50px,#3785d3 100px, #5891c5 150px);
+       margin-bottom: 30px;
+       font-size: 18px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       flex-wrap: wrap;
+       word-wrap: break-all;
+    }
+    
+    /* очень захотелось экспериментов, но сил хватило только на это */
+
+    img { 
+        border: 4px double #1f1653; 
+        overflow: hidden;
+        -webkit-transition: all 1s ease;
+                transition: all 1s ease;
+    }
+    img:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(180deg);
+    }
+    
+    .second-block {
+        overflow-x: hidden;
+        box-sizing: border-box;
+        display: inline-block;
+        justify-content: center;
+        border: 2px solid transparent;
+        padding: 20px 40px;
+        text-align: center;
+        height: 900px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: repeating-linear-gradient(45deg, #61d161 50px,#36d44b 100px, #1cb85d 150px);
+        word-wrap: break-all;
+        
+   }
+
+    .third-block {
+        overflow-x: hidden;
+        display: inline-block;
+        justify-content: center;
+        border: 2px solid transparent;
+        padding: 20px 40px;
+        text-align: center;
+        height: 900px;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: repeating-linear-gradient(45deg, #c9a646 50px,#d89f49 100px, #e0b831 150px);
+        word-wrap: break-all;
+
+}
+   div:hover {
+       border-color: #65994C; 
+       border-radius: 24px;
+          
+   }
+   
+   div > {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       cursor: pointer;
+   }
+
+   h2 {
+    font-size: 35px;
+   }
+
+   article { 
+    margin-bottom: 50px;
+   }
+
+   footer {
+    background-color:#3785d3;
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
